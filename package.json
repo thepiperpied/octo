@@ -19,15 +19,14 @@
     "eject": "react-scripts eject",
     "analyze": "source-map-explorer 'build/static/js/*.js'",
     "storybook": "start-storybook -p 9009 -s public",
-    "build-storybook": "build-storybook -s public"
+    "build-storybook": "build-storybook -s public",
+    "check-eslint": "eslint src/*.js --fix-dry-run"
   },
   "eslintConfig": {
     "extends": [
       "react-app"
     ],
-    "rules": {
-      "react/jsx-filename-extension": "off"
-    }
+    "rules": {}
   },
   "browserslist": {
     "production": [
